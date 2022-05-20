@@ -1,0 +1,7 @@
+# Folders
+.vscode
+bin
+obj
+
+# Files
+*json
