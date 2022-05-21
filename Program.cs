@@ -49,6 +49,7 @@ namespace webserver
                         await TypeGet.main(request, response, rootDir, catsDir);
                         break;
                     default:
+                        await Cat.Response(response, catsDir, 405);
                         break;
                 }
 
