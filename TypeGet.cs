@@ -24,7 +24,7 @@ namespace webserver
                     response.ContentEncoding = Encoding.UTF8;
 
                     await response.OutputStream.WriteAsync(data, 0, data.Length);
-                            break;
+                    break;
                 default:
                     await Cat.Response(response, catsDir, response.StatusCode);
                     break;
